@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:paddingTop="30dp"
+        android:src="@drawable/dicee_logo"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content">
+    </ImageView>
+    <LinearLayout
+        android:paddingTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingBottom="40dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:src="@drawable/dice1"
+            android:id="@+id/dice1"
+            android:layout_height="wrap_content">
+
+        </ImageView>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:src="@drawable/dice1"
+            android:id="@+id/dice2"
+            android:layout_height="wrap_content">
+
+        </ImageView>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/btn"
+        android:layout_marginTop="20dp"
+        android:text="Jouer"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#5bd91b"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
